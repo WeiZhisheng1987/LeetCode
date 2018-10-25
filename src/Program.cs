@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.Problems;
+using System;
 
 namespace LeetCode
 {
@@ -6,7 +7,10 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var result = new P242().Run();
+            Console.WriteLine(result);
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }
