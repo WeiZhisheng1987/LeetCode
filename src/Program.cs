@@ -7,7 +7,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var result = new P242().Run();
+            var result = new P127().Run();
             Console.WriteLine(result);
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
